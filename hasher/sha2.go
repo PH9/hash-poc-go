@@ -27,7 +27,7 @@ func SHA512(original string) []byte {
 	return bs
 }
 
-// SHA256_192 is a SHA512 with left most 240bits (I guess)
+// SHA512_240 is a SHA512 with left most 240bits (I guess)
 func SHA512_240(original string) []byte {
 	return SHA512(original)[:30]
 }
